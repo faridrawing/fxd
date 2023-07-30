@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.slider .caption *,
+.tools {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.slider .slides img {
+  filter: blur(2.5px);
+  overflow: hidden;
+  box-shadow: inset 0 0 2000px rgba(0, 0, 0, 0.5);
+  transform: scale(1.025);
+}
+
+a.brand-logo {
+  font-family: 'Righteous', cursive;
+}
+
+a.brand-logo * {
+  display: inline-block;
+}
+
+span.f,
+span.d {
+  text-indent: -100px;
+  opacity: 0;
+  transition: .45s;
+}
+
+a.brand-logo:hover span.f,
+a.brand-logo:hover span.d {
+  text-indent: 0;
+  opacity: 1;
+}
+
+blockquote {
+  border-color: #263238;
+}
+
+.progress {
+  background-color: #eaeaea;
+}
+
+.parallax-container {
+  height: 20%;
+}
+
+.parallax img {
+  filter: grayscale(1) blur(2.5px);
+  opacity: 0.9 !important;
+  transform: scale(1.025);
+}
+
+.tools img {
+  max-width: 150px;
+  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.75));
+}
+
+section,
+footer {
+  padding: 20px 0;
+}
+
+.portfolio img {
+  box-shadow: 0 0 15px rgba(0, 0, 0, .5);
+  margin: 1rem 0;
+}
