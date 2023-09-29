@@ -1,3 +1,7 @@
+# My Portfolio Website Using Materialize CSS
+#### Demo : https://faridkyojin.github.io/fxd/
+Website ini dibuat menggunakan Materialize CSS. Saya membuat website ini dengan mengikuti tutorial dari channel WPU.
+
 <p align="center">
   <a href="http://materializecss.com/">
     <img src="http://materializecss.com/res/materialize.svg" width="150">
